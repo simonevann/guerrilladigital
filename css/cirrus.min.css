@@ -4,7 +4,7 @@
 * https://spiderpig86.github.io/Cirrus
 */
 /* BASE STYLING FOR CIRRUS */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Staatliches:400,700|Poppins:400,700");
 * {
   margin: 0;
   padding: 0;
@@ -22,15 +22,15 @@ body {
   border: none;
   height: 100%; }
 
-/* Nunito Sans for the font */
+/* Poppins for the font */
 body {
   letter-spacing: 0.01rem;
   line-height: 1.8;
   /* Globally adjust line height */
   font-size: 1rem;
   font-weight: 400;
-  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
- "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ "Roboto", "Helvetica Neue", Arial,-serif, "Apple Color Emoji",
  "Segoe UI Emoji", "Segoe UI Symbol";
   letter-spacing: 0.01rem;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
@@ -122,8 +122,8 @@ fieldset {
 /* v2 Colors */
 :root {
   /* v1 Colors */
-  --cirrus-fg: #374054;
-  --cirrus-bg: #fff;
+  --cirrus-fg: #fff;
+  --cirrus-bg: #1f1e1d;
   --cirrus-primary: #f03d4d;
   --cirrus-primary-rgb: 240, 61, 77;
   --cirrus-primary-light: #ffdadd;
@@ -417,8 +417,8 @@ fieldset {
 /* v2 Colors */
 :root {
   /* v1 Colors */
-  --cirrus-fg: #374054;
-  --cirrus-bg: #fff;
+  --cirrus-fg: #fff;
+  --cirrus-bg: #1f1e1d;
   --cirrus-primary: #f03d4d;
   --cirrus-primary-rgb: 240, 61, 77;
   --cirrus-primary-light: #ffdadd;
@@ -3645,7 +3645,7 @@ a.tag:hover {
   font-size: 0.75rem;
   letter-spacing: 0.03rem;
   text-transform: uppercase;
-  font-family: Montserrat;
+  font-family: Staatliches;
   min-width: 2rem;
   user-select: none;
   margin-bottom: 1rem;
@@ -4095,8 +4095,8 @@ pre > code {
 /* Smaller than the defined pixels are the dimensions for that range */
 /* Color scheme for Cirrus */
 /* v2 Colors */
-@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Staatliches:400,700");
 :root {
   /* v1 Colors */
   --cirrus-fg: #374054;
@@ -4144,42 +4144,42 @@ pre > code {
 /* Constants */
 /* Headers */
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Staatliches',-serif;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem; }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Staatliches',-serif;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem; }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Staatliches',-serif;
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem; }
 
 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Staatliches',-serif;
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem; }
 
 h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Staatliches',-serif;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem; }
 
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Staatliches',-serif;
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.2;
@@ -4235,14 +4235,14 @@ mark,
   letter-spacing: 0.05rem; }
 
 .font-alt {
-  font-family: 'Nunito Sans'; }
+  font-family: 'Poppins'; }
 
 .content h1 {
   line-height: 1.125em;
   margin: 1rem 0; }
 
 .content h2 {
-  line-height: 1.125em;
+  line-height: 1.5em;
   margin: 1rem 0; }
 
 .content h3 {
@@ -4648,7 +4648,7 @@ select {
   width: 100%;
   border: 1px solid #dee2e6;
   border-radius: 3px;
-  font-family: 'Nunito Sans';
+  font-family: 'Poppins';
   font-size: var(--font-size-m);
   letter-spacing: 0.02rem;
   transition: all 0.3s;
@@ -4778,7 +4778,7 @@ textarea[type='text'] {
   width: 100%;
   border: 1px solid #dee2e6;
   border-radius: 3px;
-  font-family: 'Nunito Sans';
+  font-family: 'Poppins';
   font-size: var(--font-size-m);
   letter-spacing: 0.02rem;
   transition: all 0.3s;
@@ -4916,7 +4916,7 @@ select {
   width: 100%;
   border: 1px solid #dee2e6;
   border-radius: 3px;
-  font-family: 'Nunito Sans';
+  font-family: 'Poppins';
   font-size: var(--font-size-m);
   letter-spacing: 0.02rem;
   transition: all 0.3s;
@@ -7408,8 +7408,8 @@ video.video-fullscreen {
 /* v2 Colors */
 :root {
   /* v1 Colors */
-  --cirrus-fg: #374054;
-  --cirrus-bg: #fff;
+  --cirrus-fg: #fff;
+  --cirrus-bg: #1f1e1d;
   --cirrus-primary: #f03d4d;
   --cirrus-primary-rgb: 240, 61, 77;
   --cirrus-primary-light: #ffdadd;
@@ -7419,7 +7419,7 @@ video.video-fullscreen {
   --cirrus-light-gray: #f8f9fa;
   --cirrus-gray: #d5d7dc;
   --cirrus-dark-gray: #909090;
-  --cirrus-dark: #363636;
+  --cirrus-dark: #1f1e1d;
   --cirrus-link: #5e5cc7;
   --cirrus-link-dark: #4643e2;
   --cirrus-info: #2972fa;
