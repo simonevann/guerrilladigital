@@ -3,7 +3,7 @@ $(document).ready(function() {
     licenseKey: 'D366FDB4-3DAC4E1A-8F22A063-48D0E2E1',
 		scrollHorizontally: true,
     navigation:true,
-    anchors:['Hello', 'Servizi','Principi','Clienti','Nuovo','Manutenzione'],
+    anchors:['Hello', 'Servizi','Principi','Clienti','Sviluppo-siti-internet','Manutenzione-siti-internet'],
     onLeave: function(origin, destination, direction){
         var leavingSection = this;
         //Change background after section "nuovo sito"
