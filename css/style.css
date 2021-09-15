@@ -1,0 +1,44 @@
+.webdesign, .seo, .socialmedia, .ecommerce {
+    border-left: #e46400 solid 4px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+h4.subtitle {
+    color: #e46400;
+    font-size: 10pt;
+}
+ul.principlesList {
+    font-family: 'Staatliches',-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.bg-bright{
+  color: #1f1e1d!important;
+  background-color: #fff!important;
+  transition: background-color 0.5s ease, color 0.4s ease;
+}
+
+.bg-darker{
+  color: #fff!important;
+  background-color: #1f1e1d!important;
+  transition: background-color 0.5s ease, color 0.4s ease;
+}
+
+li.glide__slide {
+    width: 220px!important;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .logo {
+      margin-left: 5%!important;
+      margin-right: 5%;
+  }
+  .claim {
+    margin-top: 10%;
+    margin-left: 5%!important;
+  }
+}
